@@ -1,4 +1,12 @@
-[remote_servers]
-
+[web_servers]
 192.168.56.107
 192.168.56.108
+192.168.56.109  apache_package=httpd php_package=php
+
+[db_servers]
+192.168.56.107
+192.168.56.108
+192.168.56.109  apache_package=httpd php_package=php
+
+[file_servers]
+192.168.56.107
